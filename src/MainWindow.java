@@ -57,7 +57,7 @@ public class MainWindow extends JFrame {
         bottomPanel = new JPanel();
         bottomPanel.setLayout(new BorderLayout());
 
-        String filePath = "E:/ICEM/Object Oriented Programming/Assignments/cw_with_swing/imgs/pic.png";
+        String filePath = "C:\\Users\\Rashen Fernando\\Desktop\\swingCW\\src\\pic.png";
         titlePic = new ImageIcon(filePath);
         Image image = titlePic.getImage().getScaledInstance(300, 440, Image.SCALE_SMOOTH);
         titlePic = new ImageIcon(image);

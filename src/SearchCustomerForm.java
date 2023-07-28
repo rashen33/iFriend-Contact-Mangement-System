@@ -32,7 +32,7 @@ class SearchCustomerForm extends JFrame {
 
 
     SearchCustomerForm() {
-        setSize(500, 500);
+        setSize(600, 500);
         setTitle("Add Contact");
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
